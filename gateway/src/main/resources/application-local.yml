@@ -12,6 +12,12 @@ spring:
             - Path=/test-app/**
           filters:
             - StripPrefix=1
+        - id: test1-app
+          uri: lb://test1-app
+          predicates:
+            - Path=/test1-app/**
+          filters:
+            - StripPrefix=1
   main:
     web-application-type: reactive
 eureka:

@@ -1,8 +1,6 @@
-package com.example.BaseResponse;
+package com.example.common.BaseResponse;
 
 import lombok.Data;
-import org.springframework.util.StringUtils;
-
 
 
 @Data

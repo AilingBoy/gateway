@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: test1-app
+server:
+  port: 8003
+

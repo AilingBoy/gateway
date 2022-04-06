@@ -8,6 +8,7 @@ eureka:
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
 
+
 spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
